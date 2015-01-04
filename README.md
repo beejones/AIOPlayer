@@ -17,22 +17,15 @@ playlists.
 
 1. master.asx
 This is the mean playlist and it points to the location of the other three playlists.
-Example:
-<ASX version = "3.0">
-   <ABSTRACT>All in one player master playlist</ABSTRACT>
-   <TITLE>All in one player master playlist</TITLE>
-   <AUTHOR>beejones</AUTHOR>
-   <ENTRY>
-      <TITLE>default</TITLE>
-      <REF HREF = ".\SamplePlaylists\default.asx"/>
-   </ENTRY>
-   <ENTRY>
-      <TITLE>channels</TITLE>
-      <REF HREF = ".\SamplePlaylists\tv.asx" />
-   </ENTRY>
-   <ENTRY>
-      <TITLE>homecontrol</TITLE>
-      <REF HREF =  ".\SamplePlaylists\homecontrol.asx" />
-   </ENTRY>
-</ASX>
 
+2. default.asx
+This playlist contains the channels that start playing when the program starts. The intent is to have or a background channel 
+running or view your cameras.
+
+3. tv.asx
+This playlist contains channels you want to access quicky. So it contains references to channels and icons for each channel.
+These icons are displayed in the channels as buttons. You can play the channel by pressing the button.
+
+4. homecontrol.asx
+This playlist renders a browser on the main page. You can customize it with pages you want to access easily and quick, e.g. home automation controls.
+This playlist contains references to urls and corresponding icons. The icons will be rendered as buttons.
