@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AllInOnePlayer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MasterPlaylist" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.\SamplePlaylists\master.asx</Value>
+    </Setting>
+    <Setting Name="ChannelImageSizeHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">70</Value>
+    </Setting>
+    <Setting Name="ChannelImageSizeWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">70</Value>
+    </Setting>
+    <Setting Name="NameDefaultPlaylist" Type="System.String" Scope="User">
+      <Value Profile="(Default)">default</Value>
+    </Setting>
+    <Setting Name="NameChannelPlaylist" Type="System.String" Scope="User">
+      <Value Profile="(Default)">channels</Value>
+    </Setting>
+    <Setting Name="NameHomeControlPlaylist" Type="System.String" Scope="User">
+      <Value Profile="(Default)">homecontrol</Value>
+    </Setting>
+    <Setting Name="HomeControlImageSizeHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">70</Value>
+    </Setting>
+    <Setting Name="HomeControlImageSizeWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">70</Value>
+    </Setting>
+    <Setting Name="ChannelImageBackground" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#00000000</Value>
+    </Setting>
+    <Setting Name="HomeControlImageBackground" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#FFFFFFFF</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
