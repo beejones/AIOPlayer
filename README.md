@@ -28,3 +28,5 @@ These icons are displayed in the channels pane as buttons. You can play the chan
 4. homecontrol.asx
 This playlist renders a browser on the main page. You can customize it with pages you want to access easily and quick, e.g. home automation controls.
 This playlist contains references to urls and corresponding icons. The icons will be rendered as buttons.
+
+AIOPlayer is based on ZonePlayer https://github.com/beejones/ZonePlayer
