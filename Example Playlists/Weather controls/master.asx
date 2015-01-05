@@ -4,15 +4,15 @@
    <AUTHOR>beejones</AUTHOR>
    <ENTRY>
       <TITLE>default</TITLE>
-      <REF HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20channels/default.asx"/>
+      <REF HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20controls/default.asx"/>
    </ENTRY>
    <ENTRY>
       <TITLE>channels</TITLE>
-      <REF HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20channels/tv.asx" />
+      <REF HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20controls/tv.asx" />
    </ENTRY>
    <ENTRY>
       <TITLE>homecontrol</TITLE>
-      <REF HREF =  "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20channels/homecontrol.asx" />
+      <REF HREF =  "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20controls/homecontrol.asx" />
    </ENTRY>
 </ASX>
 

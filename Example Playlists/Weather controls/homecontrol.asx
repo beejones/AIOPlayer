@@ -5,22 +5,22 @@
    <ENTRY>
       <TITLE>weather</TITLE>
       <REF HREF = "http://www.weather.com/>
-	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20channels/weather.png"/>
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20controls/weather.png"/>
    </ENTRY>
    <ENTRY>
       <TITLE>bing</TITLE>
       <REF HREF = "http://www.bing.com"/>
-	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20channels/bing.png"/>
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20controls/bing.png"/>
    </ENTRY>
    <ENTRY>
       <TITLE>google</TITLE>
       <REF HREF = "http://www.google.com"/>
-	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20channels/google.png"/>
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20controls/google.png"/>
    </ENTRY>
    <ENTRY>
       <TITLE>skype</TITLE>
       <REF HREF = "http://www.skype.com"/>
-	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20channels/skype.png" />
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20controls/skype.png" />
    </ENTRY>
 
 </ASX>
