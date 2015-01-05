@@ -9,32 +9,32 @@
    <ENTRY>
       <TITLE>Poorten</TITLE>
       <REF HREF = "http://www.bing.com"/>
-	  <BANNER HREF = "C:\Users\ronnybj\OneDrive\dev\Git\AllInOnePlayer\graphics\gate.png"/>
+	  <BANNER HREF = ".\SamplePlaylists\gate.png"/>
    </ENTRY>
    <ENTRY>
       <TITLE>Muziek</TITLE>
       <REF HREF = "http://www.bing.com"/>
-	  <BANNER HREF = "C:\Users\ronnybj\OneDrive\dev\Git\AllInOnePlayer\graphics\music.png"/>
+	  <BANNER HREF = ".\SamplePlaylists\music.png"/>
    </ENTRY>
    <ENTRY>
       <TITLE>Deuren</TITLE>
       <REF HREF = "http://www.bing.com"/>
-	  <BANNER HREF = "C:\Users\ronnybj\OneDrive\dev\Git\AllInOnePlayer\graphics\doors.png" />
+	  <BANNER HREF = ".\SamplePlaylists\doors.png" />
    </ENTRY>
    <ENTRY>
       <TITLE>Rolluiken</TITLE>
       <REF HREF = "http://www.bing.com"/>
-	  <BANNER HREF = "C:\Users\ronnybj\OneDrive\dev\Git\AllInOnePlayer\graphics\blinds.png"/>
+	  <BANNER HREF = ".\SamplePlaylists\blinds.png"/>
    </ENTRY>
    <ENTRY>
       <TITLE>Zonnewering</TITLE>
       <REF HREF = "http://www.bing.com"/>
-	  <BANNER HREF = "C:\Users\ronnybj\OneDrive\dev\Git\AllInOnePlayer\graphics\sun.png"/>
+	  <BANNER HREF = ".\SamplePlaylists\sun.png"/>
    </ENTRY>
    <ENTRY>
       <TITLE>Lichten</TITLE>
       <REF HREF = "http://www.bing.com"/>
-	  <BANNER HREF = "C:\Users\ronnybj\OneDrive\dev\Git\AllInOnePlayer\graphics\lights.png"/>
+	  <BANNER HREF = ".\SamplePlaylists\lights.png"/>
    </ENTRY>
 </ASX>
 

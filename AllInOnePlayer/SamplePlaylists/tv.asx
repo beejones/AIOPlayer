@@ -26,6 +26,12 @@
 	  <BANNER HREF = ".\SamplePlaylists\youtube4.png"/>
 	   <PARAM NAME="Player" VALUE="vlc" />
    </ENTRY>
+   <ENTRY>
+      <TITLE>Ch5</TITLE>
+      <REF HREF = "http://youtu.be/fOaxEa5ONJw" />
+	  <BANNER HREF = ".\SamplePlaylists\youtube1.png"/>
+	   <PARAM NAME="Player" VALUE="vlc" />
+   </ENTRY>
 </ASX>
 
 
