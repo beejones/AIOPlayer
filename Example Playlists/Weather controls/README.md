@@ -8,7 +8,7 @@ These playlists are the same which are in the default install but the Uri's are 
 
 I invite everybody to upload his playlist with public channels. Please keep complete sets together with four playlist and the used images.
 
-master uri: https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20channels/master.asx
+master uri: https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20controls/master.asx
 
 1. master.asx
 This is the mean playlist and it points to the location of the other three playlists.
