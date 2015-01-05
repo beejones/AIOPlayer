@@ -9,32 +9,32 @@
    <ENTRY>
       <TITLE>Poorten</TITLE>
       <REF HREF = "http://www.bing.com"/>
-	  <BANNER HREF = ".\SamplePlaylists\gate.png"/>
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Youtube%20channels/gate.png"/>
    </ENTRY>
    <ENTRY>
       <TITLE>Muziek</TITLE>
       <REF HREF = "http://www.bing.com"/>
-	  <BANNER HREF = ".\SamplePlaylists\music.png"/>
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Youtube%20channels/music.png"/>
    </ENTRY>
    <ENTRY>
       <TITLE>Deuren</TITLE>
       <REF HREF = "http://www.bing.com"/>
-	  <BANNER HREF = ".\SamplePlaylists\doors.png" />
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Youtube%20channels/doors.png" />
    </ENTRY>
    <ENTRY>
       <TITLE>Rolluiken</TITLE>
       <REF HREF = "http://www.bing.com"/>
-	  <BANNER HREF = ".\SamplePlaylists\blinds.png"/>
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Youtube%20channels/blinds.png"/>
    </ENTRY>
    <ENTRY>
       <TITLE>Zonnewering</TITLE>
       <REF HREF = "http://www.bing.com"/>
-	  <BANNER HREF = ".\SamplePlaylists\sun.png"/>
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Youtube%20channels/sun.png"/>
    </ENTRY>
    <ENTRY>
       <TITLE>Lichten</TITLE>
       <REF HREF = "http://www.bing.com"/>
-	  <BANNER HREF = ".\SamplePlaylists\lights.png"/>
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Youtube%20channels/lights.png"/>
    </ENTRY>
 </ASX>
 
