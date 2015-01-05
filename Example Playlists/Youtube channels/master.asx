@@ -4,15 +4,15 @@
    <AUTHOR>beejones</AUTHOR>
    <ENTRY>
       <TITLE>default</TITLE>
-      <REF HREF = ".\SamplePlaylists\default.asx"/>
+      <REF HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Youtube%20channels/default.asx"/>
    </ENTRY>
    <ENTRY>
       <TITLE>channels</TITLE>
-      <REF HREF = ".\SamplePlaylists\tv.asx" />
+      <REF HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Youtube%20channels/tv.asx" />
    </ENTRY>
    <ENTRY>
       <TITLE>homecontrol</TITLE>
-      <REF HREF =  ".\SamplePlaylists\homecontrol.asx" />
+      <REF HREF =  "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Youtube%20channels/homecontrol.asx" />
    </ENTRY>
 </ASX>
 
