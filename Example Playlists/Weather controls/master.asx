@@ -1,0 +1,19 @@
+<ASX version = "3.0">
+   <ABSTRACT>All in one player master playlist</ABSTRACT>
+   <TITLE>All in one player master playlist</TITLE>
+   <AUTHOR>beejones</AUTHOR>
+   <ENTRY>
+      <TITLE>default</TITLE>
+      <REF HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20channels/default.asx"/>
+   </ENTRY>
+   <ENTRY>
+      <TITLE>channels</TITLE>
+      <REF HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20channels/tv.asx" />
+   </ENTRY>
+   <ENTRY>
+      <TITLE>homecontrol</TITLE>
+      <REF HREF =  "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20channels/homecontrol.asx" />
+   </ENTRY>
+</ASX>
+
+

@@ -1,0 +1,37 @@
+<ASX version = "3.0">
+   <ABSTRACT>Satellite TV playlist</ABSTRACT>
+   <TITLE>Satellite TV playlist</TITLE>
+   <AUTHOR>beejones</AUTHOR>
+   <ENTRY>
+      <TITLE>Ch1</TITLE>
+      <REF HREF = "http://youtu.be/xz4YQZ01Q_A" />
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Youtube%20channels/youtube1.png"/>
+	   <PARAM NAME="Player" VALUE="vlc" />
+   </ENTRY>
+   <ENTRY>
+      <TITLE>Ch2</TITLE>
+      <REF HREF = "http://youtu.be/KsB7oPjItag" />
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Youtube%20channels/youtube2.png"/>
+	   <PARAM NAME="Player" VALUE="vlc" />
+   </ENTRY>
+   <ENTRY>
+      <TITLE>Ch3</TITLE>
+      <REF HREF = "http://youtu.be/xQ9KuQQDEow" />
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Youtube%20channels/youtube3.png"/>
+	   <PARAM NAME="Player" VALUE="vlc" />
+   </ENTRY>
+   <ENTRY>
+      <TITLE>Ch4</TITLE>
+      <REF HREF = "http://youtu.be/ptdbXP4mIeI" />
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Youtube%20channels/youtube4.png"/>
+	   <PARAM NAME="Player" VALUE="vlc" />
+   </ENTRY>
+   <ENTRY>
+      <TITLE>Ch5</TITLE>
+      <REF HREF = "http://youtu.be/fOaxEa5ONJw" />
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Youtube%20channels/youtube1.png"/>
+	   <PARAM NAME="Player" VALUE="vlc" />
+   </ENTRY>
+</ASX>
+
+

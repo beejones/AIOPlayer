@@ -1,0 +1,28 @@
+<ASX version = "3.0">
+   <ABSTRACT>Home Controls</ABSTRACT>
+   <TITLE>Home Controls</TITLE>
+   <AUTHOR>beejones</AUTHOR>
+   <ENTRY>
+      <TITLE>weather</TITLE>
+      <REF HREF = "http://www.weather.com/>
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20channels/weather.png"/>
+   </ENTRY>
+   <ENTRY>
+      <TITLE>bing</TITLE>
+      <REF HREF = "http://www.bing.com"/>
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20channels/bing.png"/>
+   </ENTRY>
+   <ENTRY>
+      <TITLE>google</TITLE>
+      <REF HREF = "http://www.google.com"/>
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20channels/google.png"/>
+   </ENTRY>
+   <ENTRY>
+      <TITLE>skype</TITLE>
+      <REF HREF = "http://www.skype.com"/>
+	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20channels/skype.png" />
+   </ENTRY>
+
+</ASX>
+
+
