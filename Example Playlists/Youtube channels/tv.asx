@@ -1,0 +1,37 @@
+<ASX version = "3.0">
+   <ABSTRACT>Satellite TV playlist</ABSTRACT>
+   <TITLE>Satellite TV playlist</TITLE>
+   <AUTHOR>beejones</AUTHOR>
+   <ENTRY>
+      <TITLE>Ch1</TITLE>
+      <REF HREF = "http://youtu.be/xz4YQZ01Q_A" />
+	  <BANNER HREF = ".\SamplePlaylists\youtube1.png"/>
+	   <PARAM NAME="Player" VALUE="vlc" />
+   </ENTRY>
+   <ENTRY>
+      <TITLE>Ch2</TITLE>
+      <REF HREF = "http://youtu.be/KsB7oPjItag" />
+	  <BANNER HREF = ".\SamplePlaylists\youtube2.png"/>
+	   <PARAM NAME="Player" VALUE="vlc" />
+   </ENTRY>
+   <ENTRY>
+      <TITLE>Ch3</TITLE>
+      <REF HREF = "http://youtu.be/xQ9KuQQDEow" />
+	  <BANNER HREF = ".\SamplePlaylists\youtube3.png"/>
+	   <PARAM NAME="Player" VALUE="vlc" />
+   </ENTRY>
+   <ENTRY>
+      <TITLE>Ch4</TITLE>
+      <REF HREF = "http://youtu.be/ptdbXP4mIeI" />
+	  <BANNER HREF = ".\SamplePlaylists\youtube4.png"/>
+	   <PARAM NAME="Player" VALUE="vlc" />
+   </ENTRY>
+   <ENTRY>
+      <TITLE>Ch5</TITLE>
+      <REF HREF = "http://youtu.be/fOaxEa5ONJw" />
+	  <BANNER HREF = ".\SamplePlaylists\youtube1.png"/>
+	   <PARAM NAME="Player" VALUE="vlc" />
+   </ENTRY>
+</ASX>
+
+

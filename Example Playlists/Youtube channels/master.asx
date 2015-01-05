@@ -1,0 +1,19 @@
+<ASX version = "3.0">
+   <ABSTRACT>All in one player master playlist</ABSTRACT>
+   <TITLE>All in one player master playlist</TITLE>
+   <AUTHOR>beejones</AUTHOR>
+   <ENTRY>
+      <TITLE>default</TITLE>
+      <REF HREF = ".\SamplePlaylists\default.asx"/>
+   </ENTRY>
+   <ENTRY>
+      <TITLE>channels</TITLE>
+      <REF HREF = ".\SamplePlaylists\tv.asx" />
+   </ENTRY>
+   <ENTRY>
+      <TITLE>homecontrol</TITLE>
+      <REF HREF =  ".\SamplePlaylists\homecontrol.asx" />
+   </ENTRY>
+</ASX>
+
+
