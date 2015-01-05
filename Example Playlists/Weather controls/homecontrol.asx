@@ -4,7 +4,7 @@
    <AUTHOR>beejones</AUTHOR>
    <ENTRY>
       <TITLE>weather</TITLE>
-      <REF HREF = "http://www.weather.com/>
+      <REF HREF = "http://www.weather.com"/>
 	  <BANNER HREF = "https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20controls/weather.png"/>
    </ENTRY>
    <ENTRY>
