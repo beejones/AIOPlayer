@@ -2,8 +2,13 @@ AIOPlayer
 =========
 
 The ultimate All in One Player playlist section
+
+
 These playlists are the same which are in the default install but the Uri's are changed so they can be downloaded directly from github.
+
 I invite everybody to upload his playlist with public channels. Please keep complete sets together with four playlist and the used images.
+
+master uri: https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20channels/master.asx
 
 1. master.asx
 This is the mean playlist and it points to the location of the other three playlists.
