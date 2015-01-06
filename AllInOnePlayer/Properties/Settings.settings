@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="MasterPlaylist" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20controls/master.asx</Value>
+      <Value Profile="(Default)">.\SamplePlaylists\master.asx</Value>
     </Setting>
     <Setting Name="ChannelImageSizeHeight" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">70</Value>

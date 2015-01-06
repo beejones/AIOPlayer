@@ -107,6 +107,9 @@
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="ZonePlayer">
+      <HintPath>..\..\ZonePlayer\ZonePlayerWpf\bin\x86\Debug\ZonePlayer.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -150,12 +153,6 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\ZonePlayer\ZonePlayer\ZonePlayer.csproj">
-      <Project>{e73b9f56-ea16-47a4-8b0b-8579a306b43d}</Project>
-      <Name>ZonePlayer</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="SamplePlaylists\blinds.png">

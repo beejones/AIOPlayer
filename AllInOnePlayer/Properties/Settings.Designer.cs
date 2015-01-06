@@ -25,8 +25,7 @@ namespace AllInOnePlayer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://raw.github.com/beejones/aioplayer/master/Example%20Playlists/Weather%20co" +
-            "ntrols/master.asx")]
+        [global::System.Configuration.DefaultSettingValueAttribute(".\\SamplePlaylists\\master.asx")]
         public string MasterPlaylist {
             get {
                 return ((string)(this["MasterPlaylist"]));

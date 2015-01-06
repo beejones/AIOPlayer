@@ -261,7 +261,7 @@ namespace AllInOnePlayer
         /// <returns>the player control</returns>
         private IPlayer InitializeAxWmpPlayerControl()
         {
-            WmpAxPlayer thisPlayer = new WmpAxPlayer();
+            WmpAxPlayer thisPlayer = (WmpAxPlayer)PlayerManager.Create(PlayerType.axWmp);
             playerHost.Child = (System.Windows.Forms.Control)thisPlayer.Player;
 
             this.Player = thisPlayer;
@@ -276,7 +276,7 @@ namespace AllInOnePlayer
         /// <returns>the player control</returns>
         private IPlayer InitializeAxVlcPlayerControl()
         {
-            VlcAxPlayer thisPlayer = new VlcAxPlayer();
+            VlcAxPlayer thisPlayer = (VlcAxPlayer)PlayerManager.Create(PlayerType.axVlc); 
             playerHost.Child = (System.Windows.Forms.Control)thisPlayer.Player;
 
             this.Player = thisPlayer;
