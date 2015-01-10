@@ -133,7 +133,7 @@ namespace AllInOnePlayer
         {
             if (this.DefaultPlaylist != null)
             {
-                IPlaylistItem item = this.DefaultPlaylist.PlayList.FirstOrDefault();
+                ZonePlaylistItem item = this.DefaultPlaylist.PlayList.FirstOrDefault();
                 if (item != null)
                 {
                     this.Play(item);
@@ -238,7 +238,7 @@ namespace AllInOnePlayer
                 }
 
                 // Setup browser control
-                IPlaylistItem homeControl = this.HomeControlPlaylist.PlayList.FirstOrDefault();
+                ZonePlaylistItem homeControl = this.HomeControlPlaylist.PlayList.FirstOrDefault();
                 this.NavigateHomeControl(homeControl);
             }
         }
@@ -247,7 +247,7 @@ namespace AllInOnePlayer
         /// Navigate browser to a new page
         /// </summary>
         /// <param name="item">Item from the playlist</param>
-        private void NavigateHomeControl(IPlaylistItem item)
+        private void NavigateHomeControl(ZonePlaylistItem item)
         {
             if (item != null && item.ItemUri != null)
             {
@@ -256,40 +256,12 @@ namespace AllInOnePlayer
         }
 
         /// <summary>
-        /// Get the windows media control
-        /// </summary>
-        /// <returns>the player control</returns>
-        private IPlayer InitializeAxWmpPlayerControl()
-        {
-            WmpAxPlayer thisPlayer = (WmpAxPlayer)PlayerManager.Create(PlayerType.axWmp);
-            playerHost.Child = (System.Windows.Forms.Control)thisPlayer.Player;
-
-            this.Player = thisPlayer;
-            thisPlayer.Player.uiMode = "none";
-            thisPlayer.Player.stretchToFit = true;
-            return this.Player;
-        }
-
-        /// <summary>
-        /// Get the VLC control
-        /// </summary>
-        /// <returns>the player control</returns>
-        private IPlayer InitializeAxVlcPlayerControl()
-        {
-            VlcAxPlayer thisPlayer = (VlcAxPlayer)PlayerManager.Create(PlayerType.axVlc); 
-            playerHost.Child = (System.Windows.Forms.Control)thisPlayer.Player;
-
-            this.Player = thisPlayer;
-            return this.Player;
-        }
-
-        /// <summary>
         /// Try to get item from the playlist
         /// </summary>
         /// <param name="item">Reference to a playlist</param>
         /// <param name="zonePlaylist">The playlist</param>
         /// <returns>True if the item is found</returns>
-        private bool TryGetPlaylistItem(IPlaylistItem item, out ZonePlaylist zonePlaylist)
+        private bool TryGetPlaylistItem(ZonePlaylistItem item, out ZonePlaylist zonePlaylist)
         {
             // Try to open playlist item
             try
@@ -309,7 +281,7 @@ namespace AllInOnePlayer
         /// </summary>
         /// <param name="item">Reference to a playlist</param>
         /// <returns>The playlist</returns>
-        private ZonePlaylist GetPlaylistItem(IPlaylistItem item)
+        private ZonePlaylist GetPlaylistItem(ZonePlaylistItem item)
         {
             if (item == null)
             {
@@ -325,33 +297,14 @@ namespace AllInOnePlayer
         /// If the playlist item define a specific player, that player will be selected
         /// </summary>
         /// <param name="item">Item to play</param>
-        private void Play(IPlaylistItem item)
+        private void Play(ZonePlaylistItem item)
         {
             if (this.Player != null)
             {
                 this.Player.Stop();
             }
 
-            string playerType;
-            if (item.Param.TryGetValue(PlayerNameType, out playerType))
-            {
-                // Select the player specified in the playlist
-                switch(playerType.ToLower())
-                {
-                    case PlayerNameVlc:
-                        InitializeAxVlcPlayerControl();
-                        break;
-                    default:
-                        InitializeAxWmpPlayerControl();
-                        break;
-                }
-            }
-            else
-            {
-                // Default player
-                InitializeAxWmpPlayerControl();
-            }
-
+            this.Player = PlayerManager.Create(PlayerType.axVlc, playerHost);
             this.Player.Play(item);
         }
 
@@ -374,7 +327,7 @@ namespace AllInOnePlayer
         void HomeControlButton_Click(object sender, RoutedEventArgs e)
         {
             int bannerIndex = (int)(sender as Button).CommandParameter;
-            IPlaylistItem selection = this.HomeControlPlaylist.PlayList[bannerIndex];
+            ZonePlaylistItem selection = this.HomeControlPlaylist.PlayList[bannerIndex];
             this.NavigateHomeControl(selection);
         }
 
@@ -402,7 +355,7 @@ namespace AllInOnePlayer
         /// <summary>
         /// Gets or sets the current player
         /// </summary>
-        private IPlayer Player
+        private ZonePlayer.ZonePlayer Player
         {
             get;
             set;
