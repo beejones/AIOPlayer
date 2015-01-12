@@ -12,10 +12,5 @@ namespace AllInOnePlayer
     /// </summary>
     public partial class App : Application
     {
-        private void Application_Exit(object sender, ExitEventArgs e)
-        {
-            AllInOnePlayer.Properties.Settings.Default.Save();
-            GridLength n = AllInOnePlayer.Properties.Settings.Default.MyColumnWidthSetting;
-        }
     }
 }

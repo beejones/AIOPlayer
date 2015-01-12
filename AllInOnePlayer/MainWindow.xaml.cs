@@ -65,6 +65,21 @@ namespace AllInOnePlayer
         private static int HomeControlImageSizeWidth = Properties.Settings.Default.HomeControlImageSizeWidth;
 
         /// <summary>
+        /// Parameter name in asx playlist to define a different player
+        /// </summary>
+        private const string PlayerNameType = "Player";
+
+        /// <summary>
+        /// Define windows media player as player for item
+        /// </summary>
+        private const string PlayerNameAxWmp = "wmp";
+
+        /// <summary>
+        /// Define VLC as player for item
+        /// </summary>
+        private const string PlayerNameVlc = "vlc";
+
+        /// <summary>
         /// Initializes a new instance of the <see cref="MainWindow"/> class.
         /// </summary>
         public MainWindow()
@@ -139,7 +154,6 @@ namespace AllInOnePlayer
                 for (int inx = 0; inx < banners.Count; inx++)
                 {
                     ListBoxItem item = CreateButtonInListBox(ChannelImageBackground, banners[inx], inx, ChannelImageSizeHeight, ChannelImageSizeWidth, ChannelButton_Click);
-                    item.HorizontalAlignment = System.Windows.HorizontalAlignment.Center;
                     if (item != null)
                     {
                         channelList.Children.Add(item);
@@ -237,10 +251,7 @@ namespace AllInOnePlayer
         {
             if (item != null && item.ItemUri != null)
             {
-                browser.Dispatcher.BeginInvoke((Action)(() =>
-                {
-                    browser.Navigate(item.ItemUri);
-                }));
+                browser.Navigate(item.ItemUri);
             }
         }
 

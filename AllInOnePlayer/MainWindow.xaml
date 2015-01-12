@@ -3,17 +3,16 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:panel="clr-namespace:WpfPanel;assembly=WpfPanel" 
         xmlns:ZonePlayer="clr-namespace:ZonePlayer;assembly=ZonePlayer" 
-        Title="MainWindow" WindowState="Maximized" ShowInTaskbar="False" WindowStyle="None">
+        Title="MainWindow" Height="1080" Width="1920" WindowState="Maximized" ShowInTaskbar="False" WindowStyle="None">
     <Grid Background="Black">
         <Grid.ColumnDefinitions>
-            <!--<ColumnDefinition Width="{Binding MyColumnWidthSetting, Source={x:Static Properties:Settings.Default}, Mode=TwoWay}"/>-->
-            <ColumnDefinition Width="100"/>
-            <ColumnDefinition Width="100*"/>
-            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="200*"/>
+            <ColumnDefinition Width="60*"/>
         </Grid.ColumnDefinitions>
         <!--Define pane for the channel buttons-->
         <ScrollViewer VerticalScrollBarVisibility="Hidden" >
-            <ListBox Background="Black" >
+            <ListBox Background="Black">
                 <StackPanel Name="channelList"  Orientation="Vertical"></StackPanel>
             </ListBox>
         </ScrollViewer>
@@ -28,8 +27,5 @@
             <WrapPanel Name="homeControlList" Grid.Row="0"  Orientation="Horizontal" Margin="2,0,2,0"></WrapPanel>
             <WebBrowser Name="browser" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
         </Grid>
-        <GridSplitter Grid.Column="0" Width="5" HorizontalAlignment="Right" />
-        <GridSplitter Grid.Column="2" Grid.RowSpan="2" Width="5" HorizontalAlignment="Left"  />
-
     </Grid>
 </Window>
