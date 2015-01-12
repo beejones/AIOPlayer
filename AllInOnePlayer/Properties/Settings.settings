@@ -32,5 +32,8 @@
     <Setting Name="HomeControlImageBackground" Type="System.String" Scope="User">
       <Value Profile="(Default)">#FFFFFFFF</Value>
     </Setting>
+    <Setting Name="MyColumnWidthSetting" Type="System.Windows.GridLength" Scope="User">
+      <Value Profile="(Default)">Auto</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

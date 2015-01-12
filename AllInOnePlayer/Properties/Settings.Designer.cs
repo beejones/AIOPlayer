@@ -142,5 +142,17 @@ namespace AllInOnePlayer.Properties {
                 this["HomeControlImageBackground"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Auto")]
+        public global::System.Windows.GridLength MyColumnWidthSetting {
+            get {
+                return ((global::System.Windows.GridLength)(this["MyColumnWidthSetting"]));
+            }
+            set {
+                this["MyColumnWidthSetting"] = value;
+            }
+        }
     }
 }
