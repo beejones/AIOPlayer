@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllInOnePlayer", "AllInOneP
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{F96308C5-8F0A-462F-B202-CA738CEDC493}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AIOPlayerInstaller", "AIOPlayerInstaller\AIOPlayerInstaller.vdproj", "{357C70BE-BF9F-4815-B869-03C62A091B73}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AIOPlayerInstaller", "AIOPlayerInstaller\AIOPlayerInstaller.vdproj", "{E77694D6-C2F0-4862-80B9-97BE07B78B05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,14 +35,14 @@ Global
 		{B68485FA-FD5E-4E97-A56D-642425DC155E}.Release|x64.ActiveCfg = Release|Any CPU
 		{B68485FA-FD5E-4E97-A56D-642425DC155E}.Release|x86.ActiveCfg = Release|x86
 		{B68485FA-FD5E-4E97-A56D-642425DC155E}.Release|x86.Build.0 = Release|x86
-		{357C70BE-BF9F-4815-B869-03C62A091B73}.Debug|Any CPU.ActiveCfg = Debug
-		{357C70BE-BF9F-4815-B869-03C62A091B73}.Debug|Mixed Platforms.ActiveCfg = Debug
-		{357C70BE-BF9F-4815-B869-03C62A091B73}.Debug|x64.ActiveCfg = Debug
-		{357C70BE-BF9F-4815-B869-03C62A091B73}.Debug|x86.ActiveCfg = Debug
-		{357C70BE-BF9F-4815-B869-03C62A091B73}.Release|Any CPU.ActiveCfg = Release
-		{357C70BE-BF9F-4815-B869-03C62A091B73}.Release|Mixed Platforms.ActiveCfg = Release
-		{357C70BE-BF9F-4815-B869-03C62A091B73}.Release|x64.ActiveCfg = Release
-		{357C70BE-BF9F-4815-B869-03C62A091B73}.Release|x86.ActiveCfg = Release
+		{E77694D6-C2F0-4862-80B9-97BE07B78B05}.Debug|Any CPU.ActiveCfg = Debug
+		{E77694D6-C2F0-4862-80B9-97BE07B78B05}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{E77694D6-C2F0-4862-80B9-97BE07B78B05}.Debug|x64.ActiveCfg = Debug
+		{E77694D6-C2F0-4862-80B9-97BE07B78B05}.Debug|x86.ActiveCfg = Debug
+		{E77694D6-C2F0-4862-80B9-97BE07B78B05}.Release|Any CPU.ActiveCfg = Release
+		{E77694D6-C2F0-4862-80B9-97BE07B78B05}.Release|Mixed Platforms.ActiveCfg = Release
+		{E77694D6-C2F0-4862-80B9-97BE07B78B05}.Release|x64.ActiveCfg = Release
+		{E77694D6-C2F0-4862-80B9-97BE07B78B05}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
