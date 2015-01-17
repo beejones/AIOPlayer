@@ -142,5 +142,41 @@ namespace AllInOnePlayer.Properties {
                 this["HomeControlImageBackground"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Auto")]
+        public global::System.Windows.GridLength ColumnSetting0 {
+            get {
+                return ((global::System.Windows.GridLength)(this["ColumnSetting0"]));
+            }
+            set {
+                this["ColumnSetting0"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Auto")]
+        public global::System.Windows.GridLength ColumnSetting2 {
+            get {
+                return ((global::System.Windows.GridLength)(this["ColumnSetting2"]));
+            }
+            set {
+                this["ColumnSetting2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Auto")]
+        public global::System.Windows.GridLength RowSetting0 {
+            get {
+                return ((global::System.Windows.GridLength)(this["RowSetting0"]));
+            }
+            set {
+                this["RowSetting0"] = value;
+            }
+        }
     }
 }

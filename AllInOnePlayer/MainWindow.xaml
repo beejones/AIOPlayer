@@ -2,15 +2,16 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:panel="clr-namespace:WpfPanel;assembly=WpfPanel" 
+        xmlns:Properties="clr-namespace:AllInOnePlayer.Properties"
         Title="MainWindow" Height="1080" Width="1920" WindowState="Maximized" ShowInTaskbar="False" WindowStyle="None">
     <Grid Background="Black">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width ="{Binding ColumnSetting0, Source={x:Static Properties:Settings.Default}, Mode=TwoWay}"/>
             <ColumnDefinition Width="200*"/>
-            <ColumnDefinition Width="60*"/>
+            <ColumnDefinition Width="{Binding ColumnSetting2, Source={x:Static Properties:Settings.Default}, Mode=TwoWay}"/>
         </Grid.ColumnDefinitions>
         <!--Define pane for the channel buttons-->
-        <ScrollViewer VerticalScrollBarVisibility="Hidden" >
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" >
             <ListBox Background="Black">
                 <StackPanel Name="channelList"  Orientation="Vertical"></StackPanel>
             </ListBox>
@@ -20,13 +21,14 @@
 
         <Grid Background="Black" Grid.Column="2">
             <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
+                <RowDefinition Height="{Binding RowSetting0, Source={x:Static Properties:Settings.Default}, Mode=TwoWay}" />
+                <RowDefinition Height="60*"/>
             </Grid.RowDefinitions>
-            <WrapPanel Name="homeControlList" Grid.Row="0"  Orientation="Horizontal" Margin="2,0,2,0"></WrapPanel>
-            <WebBrowser Name="browser" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+            <WrapPanel Name="homeControlList" Grid.Row="0" Orientation="Horizontal" Margin="2,2,2,2" ></WrapPanel>
+            <GridSplitter Grid.Row="0" Grid.ColumnSpan="3"  HorizontalAlignment="Stretch" VerticalAlignment="Bottom"  Height="2"/>
+            <WebBrowser Name="browser" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Margin="2,2,2,2"/>
         </Grid>
-        <GridSplitter Grid.Column="0" Width="5" HorizontalAlignment="Right" />
-        <GridSplitter Grid.Column="2" Grid.RowSpan="2" Width="5" HorizontalAlignment="Left" />
+        <GridSplitter Grid.Column="0" Width="2" HorizontalAlignment="Right"  VerticalAlignment="Stretch" />
+        <GridSplitter Grid.Column="2"  Width="2" HorizontalAlignment="Left"  VerticalAlignment="Stretch"/>
     </Grid>
 </Window>
