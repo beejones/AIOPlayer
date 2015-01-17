@@ -72,14 +72,6 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
-    <COMReference Include="AxWMPLib">
-      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>aximp</WrapperTool>
-      <Isolated>False</Isolated>
-    </COMReference>
     <COMReference Include="WMPLib">
       <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
       <VersionMajor>1</VersionMajor>
@@ -107,6 +99,14 @@
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="WpfPanel, Version=0.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External\ZonePlayer\WpfPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="ZonePlayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\External\ZonePlayer\ZonePlayer.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -189,32 +189,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="user-home.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\ZonePlayer\AxVlcPanel\AxVlcPanel.csproj">
-      <Project>{57d1c962-4d06-41b8-88cb-6bd75dc63baf}</Project>
-      <Name>AxVlcPanel</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\ZonePlayer\AxWmpPanel\AxWmpPanel.csproj">
-      <Project>{042da724-20fd-43ce-850e-ef51532c4bef}</Project>
-      <Name>AxWmpPanel</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\ZonePlayer\Diagnostics\Diagnostics.csproj">
-      <Project>{7a732387-f7cf-447f-9a07-d4c3d6110d6b}</Project>
-      <Name>Diagnostics</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\ZonePlayer\WpfPanel\WpfPanel.csproj">
-      <Project>{6fe22ffc-167f-4916-a661-35e6ff644d0e}</Project>
-      <Name>WpfPanel</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\ZonePlayer\ZonePlayerInterface\ZonePlayerInterface.csproj">
-      <Project>{be63ea80-97e8-4653-938d-486cbad47fbb}</Project>
-      <Name>ZonePlayerInterface</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\ZonePlayer\ZonePlayer\ZonePlayer.csproj">
-      <Project>{e73b9f56-ea16-47a4-8b0b-8579a306b43d}</Project>
-      <Name>ZonePlayer</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
